@@ -11,4 +11,5 @@ app.use('/ranking', qq);
 app.use('/ranking', hid);
 app.use('/ranking', info);
 app.use('/ranking', config);
-app.listen(5003, (console.log("Open is http://localhost:5003/ranking/")));
+app.listen(443, (console.log("Open is http://localhost:443/ranking/")));
+app.listen(80, (console.log("Open is http://localhost:80/ranking/")));
